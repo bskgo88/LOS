@@ -1,0 +1,74 @@
+{
+  "title": "Legend of Siclayan",
+  "pageSize": 520,
+  "illustrationsPath": "img",
+  "volumes": [
+    {
+      "number": 1,
+      "title": "1권",
+      "cover": "01_cover.png",
+      "chapters": [
+        {
+          "number": 0,
+          "title": "프롤로그, 그날의 약속",
+          "path": "00화 - 프롤로그,그날의 약속.txt"
+        },
+        {
+          "number": 1,
+          "title": "바람이 머무는 아침",
+          "path": "01화 - 바람이 머무는 아침.txt"
+        },
+        {
+          "number": 2,
+          "title": "모래언덕의 잔향",
+          "path": "02화 - 모래언덕의 잔향.txt"
+        },
+        {
+          "number": 3,
+          "title": "프레이아의 이름",
+          "path": "03화 - 프레이아의 이름.txt"
+        }
+      ]
+    }
+  ],
+  "illustrations": [
+    "1_12.png"
+  ],
+  "backgroundIllustrations": [
+    {
+      "chapter": 0,
+      "page": 2,
+      "file": "0_2_bg.png",
+      "opacity": 1,
+      "position": "center center"
+    },
+    {
+      "chapter": 0,
+      "page": 5,
+      "file": "0_5_bg.png",
+      "opacity": 1,
+      "position": "center center"
+    },
+    {
+      "chapter": 1,
+      "page": 2,
+      "file": "1_2_bg.png",
+      "opacity": 1,
+      "position": "center center"
+    },
+    {
+      "chapter": 1,
+      "page": 10,
+      "file": "1_10_bg.png",
+      "opacity": 1,
+      "position": "center left"
+    },
+    {
+      "chapter": 1,
+      "page": 11,
+      "file": "1_10_bg.png",
+      "opacity": 1,
+      "position": "center right"
+    }
+  ]
+}

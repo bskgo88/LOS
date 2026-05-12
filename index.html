@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Legend of Siclayan Reader</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="reader-shell">
+      <header class="reader-topbar" aria-label="reader controls">
+        <button id="tocButton" class="icon-button" type="button" aria-label="목차 열기" title="목차">☰</button>
+        <div class="title-block">
+          <strong id="bookTitle">Legend of Siclayan</strong>
+          <span id="chapterTitle">불러오는 중...</span>
+        </div>
+        <button id="themeButton" class="icon-button" type="button" aria-label="테마 변경" title="테마">◐</button>
+      </header>
+
+      <section class="book-stage" aria-live="polite">
+        <button id="prevPage" class="page-zone page-zone-left" type="button" aria-label="이전 페이지"></button>
+        <article id="page" class="page">
+          <div id="pageContent" class="page-content loading">원고를 불러오는 중입니다.</div>
+        </article>
+        <button id="nextPage" class="page-zone page-zone-right" type="button" aria-label="다음 페이지"></button>
+      </section>
+
+      <footer class="reader-footer">
+        <span id="pageIndicator">- / -</span>
+        <input id="pageSlider" class="page-slider" type="range" min="1" max="1" value="1" aria-label="페이지 이동" />
+      </footer>
+    </main>
+
+    <aside id="tocPanel" class="toc-panel" aria-hidden="true">
+      <div class="toc-backdrop" data-close-toc></div>
+      <nav class="toc-drawer" aria-label="목차">
+        <div class="toc-header">
+          <strong>목차</strong>
+          <button class="icon-button" type="button" aria-label="목차 닫기" title="닫기" data-close-toc>×</button>
+        </div>
+        <div id="chapterList" class="chapter-list"></div>
+      </nav>
+    </aside>
+
+    <script src="reader.js"></script>
+  </body>
+</html>
